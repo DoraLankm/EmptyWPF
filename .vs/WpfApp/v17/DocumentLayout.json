@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Daria\\source\\repos\\WpfApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3723E0F9-72D0-4191-BCE4-581F77A0E109}|WpfApp\\WpfApp.csproj|c:\\users\\daria\\source\\repos\\wpfapp\\wpfapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3723E0F9-72D0-4191-BCE4-581F77A0E109}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3723E0F9-72D0-4191-BCE4-581F77A0E109}|WpfApp\\WpfApp.csproj|c:\\users\\daria\\source\\repos\\wpfapp\\wpfapp\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3723E0F9-72D0-4191-BCE4-581F77A0E109}|WpfApp\\WpfApp.csproj|solutionrelative:wpfapp\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -23,6 +27,18 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Daria\\source\\repos\\WpfApp\\WpfApp\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "WpfApp\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Daria\\source\\repos\\WpfApp\\WpfApp\\MainWindow.xaml",
+              "RelativeToolTip": "WpfApp\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-14T09:35:25.636Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "AssemblyInfo.cs",
               "DocumentMoniker": "C:\\Users\\Daria\\source\\repos\\WpfApp\\WpfApp\\AssemblyInfo.cs",
               "RelativeDocumentMoniker": "WpfApp\\AssemblyInfo.cs",
@@ -35,7 +51,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\Users\\Daria\\source\\repos\\WpfApp\\WpfApp\\App.xaml",
               "RelativeDocumentMoniker": "WpfApp\\App.xaml",
