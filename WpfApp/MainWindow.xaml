@@ -12,9 +12,9 @@
             <ColumnDefinition Width="Auto" />
             <ColumnDefinition Width="*" />
         </Grid.ColumnDefinitions>
-        <Button Grid.Column="0" Content="Левая кнопка" />
+        <Button Grid.Column="0" Content="Левая кнопка" Background="#FF6B588C" />
         <GridSplitter Grid.Column="1" ShowsPreview="False" Width="3"
         HorizontalAlignment="Center" VerticalAlignment="Stretch" />
-        <Button Grid.Column="2" Content="Правая кнопка" />
+        <Button Grid.Column="2" Content="Правая кнопка" Background="#FFCAAD22" />
     </Grid>
 </Window>
