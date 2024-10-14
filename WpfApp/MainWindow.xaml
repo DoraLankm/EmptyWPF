@@ -6,8 +6,15 @@
         xmlns:local="clr-namespace:WpfApp"
         mc:Ignorable="d"
         Title="MainWindow" Height="536" Width="996" Background="#FF9AADD2">
-    <Grid Margin="0,0,0,-6">
-        <Button Content="Button" HorizontalAlignment="Left" Margin="386,424,0,0" VerticalAlignment="Top" Height="50" Width="195"/>
-
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Button Grid.Column="0" Content="Левая кнопка" Background="#FF6B588C" />
+        <GridSplitter Grid.Column="1" ShowsPreview="False" Width="3"
+        HorizontalAlignment="Center" VerticalAlignment="Stretch" />
+        <Button Grid.Column="2" Content="Правая кнопка" Background="#FFCAAD22" />
     </Grid>
 </Window>
