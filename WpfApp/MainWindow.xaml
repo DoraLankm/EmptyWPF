@@ -8,13 +8,15 @@
         Title="MainWindow" Height="536" Width="996" Background="#FF9AADD2">
     <Grid>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="307*" />
+            <ColumnDefinition Width="82*"/>
+            <ColumnDefinition Width="107*"/>
             <ColumnDefinition Width="Auto" />
-            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="496*" />
         </Grid.ColumnDefinitions>
-        <Button Grid.Column="0" Content="Левая кнопка" Background="#FF6B588C" />
-        <GridSplitter Grid.Column="1" ShowsPreview="False" Width="3"
-        HorizontalAlignment="Center" VerticalAlignment="Stretch" />
-        <Button Grid.Column="2" Content="Правая кнопка" Background="#FFCAAD22" />
+        <Button Grid.Column="0" Content="Левая кнопка" Background="#FF6B588C" Grid.ColumnSpan="4" Margin="0,0,4,0" />
+        <GridSplitter Grid.Column="3" ShowsPreview="False" Width="4"
+        HorizontalAlignment="Center" />
+        <Button Grid.Column="4" Content="Правая кнопка" Background="#FFCAAD22" />
     </Grid>
 </Window>
